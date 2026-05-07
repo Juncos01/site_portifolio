@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfólio pessoal de Cosmo Izidoro dos Santos Junior - Estudante de Ciência de Dados">
+    <meta name="author" content="Cosmo Izidoro dos Santos Junior">
+    <title>Cosmo Izidoro | Portfólio</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome para ícones (biblioteca externa apenas para ícones, não é framework) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+<body>
+    <!-- Toggle de Tema (Claro/Escuro) -->
+    <div class="theme-toggle">
+        <button id="themeSwitcher" aria-label="Alternar tema claro/escuro">
+            <i class="fas fa-moon"></i>
+        </button>
+    </div>
+
+    <!-- Cabeçalho com Menu de Navegação -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>Cosmo<span>Izidoro</span></h1>
+                <p class="tagline">Estudante de Ciência de Dados</p>
+            </div>
+            <!-- Menu Hamburguer para mobile -->
+            <div class="menu-toggle" id="menuToggle">
+                <i class="fas fa-bars"></i>
+            </div>
+            <nav id="mainNav">
+                <ul>
+                    <li><a href="#sobre" class="nav-link">Sobre mim</a></li>
+                    <li><a href="#formacao" class="nav-link">Formação</a></li>
+                    <li><a href="#portfolio" class="nav-link">Portfólio</a></li>
+                    <li><a href="#contato" class="nav-link">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Seção Sobre Mim -->
+        <section id="sobre" class="section">
+            <div class="container">
+                <h2 class="section-title"><i class="fas fa-user"></i> Sobre mim</h2>
+                <div class="sobre-content">
+                    <div class="sobre-texto">
+                        <p>Olá! Sou <strong>Cosmo Izidoro dos Santos Junior</strong>, tenho 28 anos e sou apaixonado por tecnologia e análise de dados.</p>
+                        <p>Minha curiosidade e interesse por dados surgiu quando trabalhei como webdesigner freelancer alguns meses usando o Wordpress e seus plugins(aliás este portifólio é o primeiro site criado do zero).  </p>
+                        <p>Atualmente sou estudante de <strong>Tecnologia em Ciência de Dados</strong> na <strong>Uninter (Universidade Internacional)</strong>, onde estou desenvolvendo habilidades para transformar dados em insights valiosos.</p>
+                        
+                        <h3><i class="fas fa-heart"></i> Hobbies e Interesses</h3>
+                        <ul class="hobbies-list">
+                            <li><i class="fas fa-code"></i> Programação e desenvolvimento web</li>
+                            <li><i class="fas fa-chart-line"></i> Análise de dados e visualização</li>
+                            <li><i class="fas fa-book"></i> Leitura de livros técnicos</li>
+                            <li><i class="fas fa-gamepad"></i> Jogos e tecnologia</li>
+                            <li><i class="fas fa-music"></i> Música e podcasts</li>
+                        </ul>
+                        
+                        <h3><i class="fas fa-bullseye"></i> Objetivos</h3>
+                        <p>Busco me tornar um profissional referência em Ciência de Dados, contribuindo para decisões baseadas em dados e desenvolvendo soluções inovadoras que impactem positivamente a sociedade.</p>
+                    </div>
+                    <div class="sobre-avatar">
+                        <div class="avatar-placeholder">
+                            <i class="fas fa-user-circle"></i>
+                        </div>
+                        <p class="frase-motivacional">"Dados são o novo petróleo, mas sem análise, são apenas dados brutos."</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção Formação -->
+        <section id="formacao" class="section alt-bg">
+            <div class="container">
+                <h2 class="section-title"><i class="fas fa-graduation-cap"></i> Formação</h2>
+                <div class="formacao-grid">
+                    <div class="card">
+                        <i class="fas fa-university"></i>
+                        <h3>Graduação</h3>
+                        <p class="card-title">Tecnologia em Ciência de Dados</p>
+                        <p class="card-institution">Uninter - Centro Universitário Internacional</p>
+                        <p class="card-period">2024 - Atualmente (em andamento)</p>
+                    </div>
+                    
+                    <div class="card">
+                        <i class="fas fa-school"></i>
+                        <h3>Ensino Médio</h3>
+                        <p class="card-title">Ensino Médio Completo</p>
+                        <p class="card-institution">Escola estadual de origem</p>
+                        <p class="card-period">Concluído</p>
+                    </div>
+                    
+                    <div class="card">
+                        <i class="fas fa-language"></i>
+                        <h3>Idiomas</h3>
+                        <ul class="language-list">
+                            <li><strong>Português</strong> - Nativo</li>
+                            <li><strong>Inglês</strong> - Intermediário (leitura técnica e conversação básica)</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="card">
+                        <i class="fas fa-certificate"></i>
+                        <h3>Cursos Complementares</h3>
+                        <ul class="course-list">
+                            <li>Fundamentos da Programação Web</li>
+                            <li>Lógica de Programação</li>
+                            <li>Banco de Dados - Fundamentos</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção Portfólio -->
+        <section id="portfolio" class="section">
+            <div class="container">
+                <h2 class="section-title"><i class="fas fa-briefcase"></i> Portfólio</h2>
+                <p class="section-subtitle">Projetos e trabalhos desenvolvidos durante minha jornada acadêmica</p>
+                
+                <div class="portfolio-grid">
+                    <div class="portfolio-card">
+                        <div class="portfolio-icon">
+                            <i class="fas fa-chart-bar"></i>
+                        </div>
+                        <h3>Análise de Dados - Dataset Público</h3>
+                        <p>Projeto de análise exploratória de dados utilizando Python e Pandas, com visualizações geradas em Matplotlib.</p>
+                        <div class="portfolio-links">
+                            <a href="#" class="btn disabled" title="Projeto em desenvolvimento"><i class="fab fa-github"></i> Em breve</a>
+                        </div>
+                    </div>
+                    
+                    <div class="portfolio-card">
+                        <div class="portfolio-icon">
+                            <i class="fas fa-database"></i>
+                        </div>
+                        <h3>Modelagem de Banco de Dados</h3>
+                        <p>Criação de modelo relacional para sistema de e-commerce, com implementação de queries SQL avançadas.</p>
+                        <div class="portfolio-links">
+                            <a href="#" class="btn disabled" title="Projeto em desenvolvimento"><i class="fab fa-github"></i> Em breve</a>
+                        </div>
+                    </div>
+                    
+                    <div class="portfolio-card">
+                        <div class="portfolio-icon">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                        <h3>Dashboard Interativo</h3>
+                        <p>Desenvolvimento de dashboard para visualização de métricas de vendas utilizando ferramentas de BI.</p>
+                        <div class="portfolio-links">
+                            <a href="#" class="btn disabled" title="Projeto em desenvolvimento"><i class="fab fa-github"></i> Em breve</a>
+                        </div>
+                    </div>
+                    
+                    <div class="portfolio-card">
+                        <div class="portfolio-icon">
+                            <i class="fas fa-file-code"></i>
+                        </div>
+                        <h3>Este Portfólio Web</h3>
+                        <p>Site desenvolvido em HTML5, CSS3 e JavaScript puro, seguindo boas práticas de desenvolvimento web.</p>
+                        <div class="portfolio-links">
+                            <a href="#" class="btn" id="viewPortfolioBtn"><i class="fab fa-github"></i> Ver projeto</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Mensagem informativa sobre projetos -->
+                <div class="portfolio-obs">
+                    <p><i class="fas fa-info-circle"></i> <em>Os projetos acima serão atualizados conforme o desenvolvimento das atividades acadêmicas e projetos pessoais.</em></p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção Contato com Formulário -->
+        <section id="contato" class="section alt-bg">
+            <div class="container">
+                <h2 class="section-title"><i class="fas fa-envelope"></i> Contato</h2>
+                <p class="section-subtitle">Entre em contato comigo através do formulário abaixo</p>
+                
+                <div class="contato-wrapper">
+                    <div class="contato-info">
+                        <h3>Informações</h3>
+                        <p><i class="fas fa-envelope"></i> cosmo.juninho14@gmail.com</p>
+                        <p><i class="fab fa-github"></i> github.com/Juncos01 </p>
+                        <p><i class="fab fa-linkedin"></i> linkedin.com/in/cosmo-izidoro</p>
+                        <p><i class="fas fa-map-marker-alt"></i> Brasil</p>
+                    </div>
+                    
+                    <div class="contato-form">
+                        <form id="contactForm">
+                            <div class="form-group">
+                                <label for="nome"><i class="fas fa-user"></i> Nome *</label>
+                                <input type="text" id="nome" name="nome" placeholder="Seu nome completo">
+                                <small class="error-message" id="nomeError"></small>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="email"><i class="fas fa-envelope"></i> E-mail *</label>
+                                <input type="email" id="email" name="email" placeholder="seu@email.com">
+                                <small class="error-message" id="emailError"></small>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="mensagem"><i class="fas fa-comment"></i> Mensagem *</label>
+                                <textarea id="mensagem" name="mensagem" rows="5" placeholder="Digite sua mensagem..."></textarea>
+                                <small class="error-message" id="mensagemError"></small>
+                            </div>
+                            
+                            <button type="submit" class="btn-submit" id="submitBtn">
+                                <i class="fas fa-paper-plane"></i> Enviar mensagem
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Rodapé -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Cosmo Izidoro dos Santos Junior - Todos os direitos reservados</p>
+            <p>Desenvolvido para a disciplina de Fundamentos da Programação Web - Uninter</p>
+        </div>
+    </footer>
+
+    <!-- Modal de confirmação -->
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <i class="fas fa-check-circle"></i>
+            <h3>Mensagem enviada!</h3>
+            <p>Sua mensagem foi enviada com sucesso. Entrarei em contato em breve.</p>
+            <button class="modal-btn">Fechar</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    <!-- Comentário: Todo JavaScript é puro, sem frameworks. jQuery não foi utilizado -->
+</body>
+</html>
