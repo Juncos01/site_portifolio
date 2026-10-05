@@ -54,4 +54,4 @@
 
 1. Clone o repositório:
 ```bash
-git clone https://github.com/Juncos01/site_portifolio/
+git clone https://juncos01.github.io/site_portifolio/
